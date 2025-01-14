@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img src="img/logomars.png" alt="">
+            <div class="uzb">
+                <img src="img/Vector.png" alt="">
+                <h1>O’zb</h1>
+            </div>
+        </nav>
+        <div class="registor">
+            <div class="container">
+                <div class="registor_offerta">
+                    <img src="img/logomars.png" alt="">
+                    <div class="offerta">
+                        <h2>Offerta imzolash</h2>
+                        <img src="img/Vector2.png" alt="">
+                    </div>
+                </div>
+                <h3 class="h3">Spacega xush kelibsiz</h3>
+                <div class="tanlash">
+                    <div class="oquv">
+                    O’quvchiman
+                    </div>
+                    <div class="ota">
+                        Ota-onaman
+                    </div>
+            </div> 
+            <form class="login-form" id="loginForm">
+                <input type="text" name="username" id="username" placeholder="Modme Id or Phone number" required>
+                <div class="password-wrapper">
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    <span class="toggle-password" id="togglePassword">👁‍🗨</span>
+                </div>
+                <h4 class="h4">QR code orqali kirish</h4>
+                <button type="submit" id="submitButton" disabled>Подтвердить</button>
+                <div id="errorMessage" style="display: none; color: red;"></div> <!-- Элемент для сообщения об ошибке -->
+            </form>
+        </div>
+    </div>
+</header>
+<script src="script.js"></script>
+</body>
+</html>
